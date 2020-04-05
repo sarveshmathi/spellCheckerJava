@@ -1,5 +1,0 @@
-Suggested design changes: 
-1. Make a separate Dictionary class which stores words from a dictionary file in an ArrayList. An instance of this class
-   then be used by both the SpellChecker and WordRecommender class, rather than having to repeat the code in both these classes.
-2. The getWordSuggestions method and getWordsWithCommonLetters both compare a given word with words in the dictionary. 
-   Rather than repeating code with similar functionality, we can make one helper method that is used by both methods.
