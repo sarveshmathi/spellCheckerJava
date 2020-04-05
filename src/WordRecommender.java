@@ -221,14 +221,14 @@ public class WordRecommender {
 		return toPrint.trim();
 	}
 
-	public static void main(String[] args) {
-		WordRecommender wr = new WordRecommender("engDictionary.txt");
-		//System.out.print(wr.prettyPrint(new ArrayList<String> (Arrays.asList("biker", "tiger", "bigger")))); 
-		//System.out.println(wr.getSimilarityMetric("frenchtoast", "roast"));
-		//System.out.println("common percent: " + wr.getCommonPercent("sientificaly", "identifications"));
-		//System.out.println("Max similarity word: " + wr.findWordWithMaxSimilarity("helloer", new ArrayList<String> (Arrays.asList("hello", "yellow", "fellow"))));
-		System.out.println(wr.getWordSuggestions("zabra", 2, 0.75, 5));
-		//System.out.println(wr.getWordsWithCommonLetters("cardiovascular", new ArrayList<String> (Arrays.asList("bang", "mange", "gang", "cling", "loo")), 4));
-	}
+//	public static void main(String[] args) {
+//		WordRecommender wr = new WordRecommender("engDictionary.txt");
+//		//System.out.print(wr.prettyPrint(new ArrayList<String> (Arrays.asList("biker", "tiger", "bigger")))); 
+//		//System.out.println(wr.getSimilarityMetric("frenchtoast", "roast"));
+//		//System.out.println("common percent: " + wr.getCommonPercent("sientificaly", "identifications"));
+//		//System.out.println("Max similarity word: " + wr.findWordWithMaxSimilarity("helloer", new ArrayList<String> (Arrays.asList("hello", "yellow", "fellow"))));
+//		System.out.println(wr.getWordSuggestions("zabra", 2, 0.75, 5));
+//		//System.out.println(wr.getWordsWithCommonLetters("cardiovascular", new ArrayList<String> (Arrays.asList("bang", "mange", "gang", "cling", "loo")), 4));
+//	}
 
 }
